@@ -1,0 +1,133 @@
+.main {
+    display: flex;
+    flex-flow: row wrap;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 100px ;
+}
+
+.redline {
+    flex: 40%;
+    margin-left: 10%;
+}
+
+
+.redline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color:  #180F4A;
+    padding: 0;
+    margin: 0;
+}
+
+.redline p {
+    color: gray;
+    text-align: left;
+
+}
+
+.contact-btn{
+    display: inline-block;
+    background-color: #FF2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.contact-btn:hover {
+    background-color: #180F4A;
+}
+
+.img-redline {
+    margin-right: 10%;
+    flex: 40%;
+    text-align: center;
+}
+.img-redline img {
+    max-width: 90%;
+}
+
+.section {
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+.section h2 {
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+    font-family: 'Lobster Two', cursive;
+    font-weight: bold;
+    color: #180F4A;
+}
+
+.servicos { 
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.text-hidden {
+    display: none;
+}
+
+.card:hover {
+    background-color: #FF2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img {
+    display: none;
+}
+
+.card:hover .card-text {
+    display: none;
+}
+
+.card:hover .text-hidden {
+    display: block;
+}
+
+@media (max-width: 1005px) {
+    .main {
+        padding-top: 50px;
+    }
+
+    .redline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+
+    .redline p {
+        text-align: center;
+    }
+    
+    .card {
+        width: 100%;
+    }
+
+    .img-redline {
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+}
