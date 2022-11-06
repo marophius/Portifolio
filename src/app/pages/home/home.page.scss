@@ -4,7 +4,7 @@
     height: auto;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: var(--body);
     padding-top: 100px ;
 }
 
@@ -17,7 +17,7 @@
 .redline h2 {
     font-weight: 900;
     font-size: 20px;
-    color:  #180F4A;
+    color:  var(--text-body);
     padding: 0;
     margin: 0;
 }
@@ -30,7 +30,7 @@
 
 .contact-btn{
     display: inline-block;
-    background-color: #FF2978;
+    background-color: var(--pink);
     padding: 20px;
     color: white;
     text-transform: uppercase;
@@ -39,7 +39,7 @@
 }
 
 .contact-btn:hover {
-    background-color: #180F4A;
+    background-color: var(--hard-blue);
 }
 
 .img-redline {
@@ -66,7 +66,7 @@
     margin: 0;
     font-family: 'Lobster Two', cursive;
     font-weight: bold;
-    color: #180F4A;
+    color: var(--text-body);
 }
 
 .servicos { 
@@ -79,7 +79,7 @@
     width: 30%;
     padding: 20px;
     margin: 1%;
-    border: 1px solid #FF2978;
+    border: 1px solid var(--pink);
     border-radius: 10px;
     cursor: pointer;
 }
@@ -89,8 +89,8 @@
 }
 
 .card:hover {
-    background-color: #FF2978;
-    color: white;
+    background-color: var(--pink);
+    color: var(--white);
     padding: 40px;
 }
 

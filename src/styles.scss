@@ -6,6 +6,27 @@
     box-sizing: border-box;
 }
 
+:root {
+    --pink: #ff2978;
+    --hard-blue: #180F4A;
+    --white: #fff;
+    --body: #fff;
+    
+    --text-header: #180F4A;
+    --text-body: #180F4A;
+    --text-footer: #fff;
+    --text-button: #fff;
+}
+
+:root .dark-theme {
+    --pink: #aa0944;
+    --body: #4b4b4b;
+    --text-header: #fff;
+    --text-body: #fff;
+    --text-button: #180F4A;
+    --body: #fff;
+}
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;

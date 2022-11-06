@@ -14,11 +14,13 @@
     flex: 20%;
     text-align: left;
     margin-left: 10%;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: var(--pink);
 }
 
 .logo h1 {
     font-family: 'Lobster Two', cursive;
-    color: #180F4A;
+    color: var(--text-header);
     font-size: 34px;
     font-weight: bold;
 }
@@ -30,28 +32,28 @@
 }
 
 .menu a {
-    color: #180F4A;
+    color: var(--text-header);
     text-decoration: none;
     font-size: 20px;
     padding: 20px 16px;
 }
 
 .menu a:hover {
-    color: #FF2978;
-    border-top: 4px solid #180F4A;
+    color: var(--pink);
+    border-top: 4px solid var(--text-header);
 }
 
 #botao {
-    background-color: #180F4A;
+    background-color: var(--text-header);
     padding: 10px 25px;
-    color: white;
+    color: var(--text-button);
     border-radius: 5px;
     margin-right: 10%;
     margin-left: 5%;
 }
 #botao:hover {
     border: none;
-    background-color: #FF2978;
+    background-color: var(--pink);
 }
 
 
